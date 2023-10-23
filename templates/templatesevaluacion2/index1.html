@@ -12,11 +12,7 @@
 
 <body class="container mt-5">
     <div class="alert alert-info display-1 text-center">
-        <img src="{% static 'imagenes/evaluacion2i/chile-argentina.jpg' %}" width="100px" alt="Logo empresa">
-        conozca 4 hechos de estos paises
-    </div>
-    <div class="alert alert-info display-1 text-center">
-        <img src="{% static 'imagenes/evaluacion2i/brazil-chile.jpg' %}" width="100px" alt="Logo empresa">
+        <img src="{% static 'imagenes/chile-argentina.jpg' %}" width="100px" alt="Datos curiosos">
         conozca 4 hechos de estos paises
     </div>
     <div class="row">
@@ -28,24 +24,21 @@
     <div class="row">
         <div class="col">
             <a href="#" class="btn p-3 btn-success w-100"><img src="{{imagen1}}" width="200px" height="150px" alt="lugar mas conocido de chile" />
+                
                 <br/>
-                {{imagen1}}
-            </a
-            <div class="col"><a href="/chile" class="btn p-3 btn-info w-100">{{dato11}}</a>
         </div>
         <div class="col">
             <a href="#" class="btn p-3 btn-success w-100"><img src="{{imagen2}}" width="200px" height="150px" alt="logo de una imagen2" />
                 <br/>
-                {{imagen2}}
+                {{dato21}}
             </a>
             <a>{{dato12}}</a>
         </div>
         <div class="col">
             <a href="#" class="btn p-3 btn-success w-100"><img src="{{imagen3}}" width="200px" height="150px" />
                 <br />
-                {{imagen3}}
+                {{dato31}}
             </a>
-            <a>{{dato13}}</a>
         </div>
     </div>
     <a href="/" class="btn btn-info mt-5">Volver</a>
